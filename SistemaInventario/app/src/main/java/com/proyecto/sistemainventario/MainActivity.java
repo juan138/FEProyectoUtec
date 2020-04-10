@@ -48,6 +48,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Login(){
+        usuario.setText("");
+        pass.setText("");
         Intent log = new Intent(this,Principal.class);
         startActivity(log);
     }
