@@ -47,6 +47,10 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    @Override
+    public void onBackPressed() {
+    }
+
     public void Login(){
         usuario.setText("");
         pass.setText("");
@@ -55,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
     }
 //login&user=juan&pass=s34
     private void consultar(final View view){
-        StringRequest str = new StringRequest(Request.Method.POST, "http://192.168.1.10:8080/ProyectoUtecProgra3/PrincipalServlet",
+        StringRequest str = new StringRequest(Request.Method.POST, "http://192.168.1.10:8080/ProyectoUtec/login",
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {

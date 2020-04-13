@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/index" android:title="Inicio "  />
+    <item android:id="@+id/p" android:title="Perfil" android:icon="@drawable/ic_user" />
+    <item android:id="@+id/lst" android:title="Productos" android:icon="@drawable/ic_table" />
+    <item android:id="@+id/sl" android:title="Solicitar" android:icon="@drawable/ic_box_open" />
+    <item android:id="@+id/np" android:title="Nuevo Producto" android:icon="@drawable/ic_plus_circle" />
+    <item android:id="@+id/closed" android:title="Salir " android:icon="@drawable/ic_sign_out_alt" />
+</menu>

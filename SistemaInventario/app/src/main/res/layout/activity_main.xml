@@ -9,8 +9,8 @@
 
     <EditText
         android:id="@+id/txtUser"
-        android:layout_width="225dp"
-        android:layout_height="41dp"
+        android:layout_width="222dp"
+        android:layout_height="64dp"
         android:layout_marginTop="132dp"
         android:ems="10"
         android:hint="User"
@@ -26,24 +26,24 @@
         android:id="@+id/btnIngresar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="128dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="24dp"
         android:text="Ingresar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtPass" />
 
     <EditText
         android:id="@+id/txtPass"
-        android:layout_width="226dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="48dp"
+        android:layout_width="229dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="32dp"
         android:ems="10"
         android:hint="PassWord"
         android:inputType="textPassword"
         android:textColor="#F4F1F1"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.394"
+        app:layout_constraintHorizontal_bias="0.412"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtUser" />
 
