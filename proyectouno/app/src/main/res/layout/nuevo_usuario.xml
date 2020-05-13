@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="APELLIDOS"
+        android:textColor="#FF5722"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="249dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="333dp"
+        android:layout_height="34dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=" "
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="106dp" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="329dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=" "
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="188dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONTRASEÑA"
+        android:textColor="#00BCD4"
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="408dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USUARIO"
+        android:textColor="#03A9F4"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="408dp" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="136dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=" "
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="336dp" />
+
+    <EditText
+        android:id="@+id/editText11"
+        android:layout_width="196dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="199dp"
+        tools:layout_editor_absoluteY="336dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FDFFFF"
+        android:text="NOMBRES:"
+        android:textColor="#FF5722"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="154dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NUEVO USUARIO:"
+        android:textColor="#213DF3"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="41dp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="341dp"
+        android:layout_height="47dp"
+        android:background="#CDDC39"
+        android:text="REGRESAR A MENU PRINCIPAL"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="656dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="145dp"
+        android:layout_height="45dp"
+        android:background="#00BCD4"
+        android:text="ELIMINAR"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="577dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="148dp"
+        android:layout_height="49dp"
+        android:background="#FF2222"
+        android:text="GUARDAR"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="508dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="155dp"
+        android:layout_height="51dp"
+        android:background="#FF2222"
+        android:text="EDITAR"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="208dp"
+        tools:layout_editor_absoluteY="506dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
